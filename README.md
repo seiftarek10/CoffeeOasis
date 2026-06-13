@@ -27,9 +27,9 @@
 * **🧠 Logic:** Absolute admin power over the physical shop's menu and data.
 * **⚙️ Steps:** Owner adds **Drinks & Categories** + edits **Shop Info** ➔ Updates Firestore ➔ Triggers instant menu refresh for customers.
 
-#### 2️⃣ 👤 USER FLAVOR: Local-First Custom Cart
-* **🧠 Logic:** Zero UI lag during complex drink customization (Size, Milk, Sugar extras).
-* **⚙️ Steps:** Intercepts clicks inside **Hive Box** ➔ Computes prices and add-ons in-memory ➔ Commits payload to Firestore at checkout.
+#### 2️⃣ 👤 USER FLAVOR: Local-First Dynamic Cart
+* **🧠 Logic:** Zero UI lag during item updates and price calculation.
+* **⚙️ Steps:** Intercepts item selection inside **Hive Box** ➔ Computes base prices and quantities in-memory ➔ Commits payload to Firestore at checkout.
 
 #### 3️⃣ 👤 USER FLAVOR: Live Order Tracking
 * **🧠 Logic:** Supports Delivery/Pickup modes with zero-polling, real-time updates.
